@@ -14,15 +14,42 @@
 }
 
 .side_bar_top{
-  /* side_barと色が同じなので親要素側で指定 */
+  background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.new_chat a{
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .side_bar_bottom{
+  overflow: scroll;
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+}
+
+.room_name{
+  padding: 20px 0 40px;
+}
+
+.room_name a{
+  color: white;
+  text-decoration: none;
 }
 
 .main_chat_top{
