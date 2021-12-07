@@ -1,0 +1,44 @@
+.wrapper{
+  display: flex;
+}
+
+.side_bar{
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.main_chat{
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+}
+
+.side_bar_top{
+  /* side_barと色が同じなので親要素側で指定 */
+  height: 100px;
+  padding: 0 20px;
+}
+
+.side_bar_bottom{
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+}
+
+.main_chat_top{
+  height: 100px;
+  padding: 0 40px;
+  /* main_chatと色が同じなので親要素側で指定 */
+}
+
+.main_chat_middle{
+  height: calc(100vh - 100px - 90px); /* headerとfooterの値を引いた数というのが分かり易い様に記述する */
+  padding: 46px 40px 0;
+  background-color: #FAFAFA;
+}
+
+.main_chat_bottom{
+  height: 90px;
+  padding: 20px 40px;
+  background-color: #DDDDDD;
+}
